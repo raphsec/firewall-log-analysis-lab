@@ -1,3 +1,9 @@
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Tools](https://img.shields.io/badge/SIEM-Splunk-orange)
+![Platform](https://img.shields.io/badge/Platform-Ubuntu_Linux-purple)
+![Type](https://img.shields.io/badge/Type-Blue_Team_Lab-blue)
+![Threats](https://img.shields.io/badge/Threats_Detected-3-red)
+
 # Firewall Log Analysis & Threat Detection Lab
 
 ## Project Overview

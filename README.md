@@ -21,5 +21,25 @@ using Splunk Enterprise to detect real attack patterns.
 - Alert triage and incident documentation
 - SOC Tier 1 analyst workflow
 
+## Screenshots
+
+### Splunk Dashboard
+![Splunk Dashboard](screenshots/splunk-dashboard.png)
+
+### Firewall Logs Ingested
+![Firewall Logs](screenshots/firewall-logs-created.png)
+
+### Port Scan Detected
+![Port Scan](screenshots/splunk_port_scan_detected.png)
+
+### Brute Force Attack Detected
+![Brute Force](screenshots/splunk_brute_force_detected.png)
+
+### Metasploit C2 Traffic Detected
+![Metasploit](screenshots/splunk_metasploit_port_detected.png)
+
+### Incident Report
+![Incident Report](screenshots/incident_report.png)
+
 ## Analyst
 Raphael Akro | raphsec.github.io

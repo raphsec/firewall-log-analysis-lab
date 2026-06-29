@@ -19,6 +19,7 @@ force attack, and Metasploit C2 communication attempt.
 - Action: All blocked
 - Conclusion: Automated port scan detected. 
 7 ports probed in 3 seconds indicating reconnaissance activity.
+- **Severity:** 🟡 MEDIUM
 
 ### Finding 2 — SSH Brute Force Attack
 - Source IP: 185.220.101.45 (External)
@@ -27,12 +28,16 @@ force attack, and Metasploit C2 communication attempt.
 - Action: All blocked
 - Conclusion: External brute force attack on SSH service.
 
+- **Severity:** 🔴 HIGH
+
 ### Finding 3 — Metasploit C2 Traffic
 - Source IP: 45.33.32.156 (External)
 - Target: 10.0.0.1 Port 4444
 - Action: Blocked
 - Conclusion: Connection attempt on Metasploit default 
 port — possible C2 communication attempt.
+
+- **Severity:** 🔴 CRITICAL
 
 ## Recommendations
 1. Block 192.168.1.105 immediately and investigate the device

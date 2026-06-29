@@ -19,6 +19,7 @@ force attack, and Metasploit C2 communication attempt.
 - Action: All blocked
 - Conclusion: Automated port scan detected. 
 7 ports probed in 3 seconds indicating reconnaissance activity.
+  
 - **Severity:** 🟡 MEDIUM
 
 ### Finding 2 — SSH Brute Force Attack

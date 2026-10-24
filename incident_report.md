@@ -46,6 +46,14 @@ port — possible C2 communication attempt.
 3. Block 45.33.32.156 — suspicious C2 activity
 4. Disable SSH port 22 or move to non-standard port
 5. Set up automated alerts for port 4444 traffic
+  
+## MITRE ATT&CK Mapping
+
+| Finding | Technique |
+|---------|-----------|
+| Internal port scan | T1046 Network Service Discovery |
+| SSH brute force attack | T1110 Brute Force |
+| Metasploit C2 traffic on port 4444 | T1571 Non-Standard Port |
 
 ## Tools Used
 - Splunk Enterprise 10.4.0
